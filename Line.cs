@@ -4,8 +4,8 @@ namespace Lab2
 {
     internal class Line
     {
-        private Point start;
-        private Point end;
+        private Point start = new Point(0, 0);
+        private Point end = new Point(0, 0);
 
         public Point Start
         {
@@ -19,21 +19,18 @@ namespace Lab2
             set { this.end = value; }
         }
 
-       
         public Line(Point start, Point end)
         {
             this.start = start;
             this.end = end;
         }
 
-        
         public Line(double x1, double y1, double x2, double y2)
         {
             this.start = new Point(x1, y1);
             this.end = new Point(x2, y2);
         }
 
-        
         public int Length()
         {
             double dx = this.end.X - this.start.X;
