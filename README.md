@@ -1,4 +1,4 @@
-# [Аббасова] [Айнур] [] Лабораторная №2
+# [Аббасова] [Айнур] [ЛА - 2] Лабораторная №2
 
 ## Задание 1. Создание класса Point
 
@@ -14,9 +14,9 @@
 
 ### Тестирование
 
-В методе `Main` создаются три точки с разными координатами. Затем они выводятся на экран. Проверяется правильность создания объектов и формат отображения координат.
+<img width="388" height="313" alt="image" src="https://github.com/user-attachments/assets/2bb6d058-642f-4dc6-9b0a-91bd0e938e33" />
 
-<img width="348" height="126" alt="image" src="https://github.com/user-attachments/assets/7c268104-6f8c-4bd0-9661-7839ddbac581" />
+
 
 
 ---
@@ -39,9 +39,8 @@
 
 ### Тестирование
 
-Проверяется создание нескольких линий, изменение координат точек, использование общих объектов и замена начала линии новым объектом.
+<img width="316" height="692" alt="image" src="https://github.com/user-attachments/assets/e310c876-abec-46b6-b386-ae89c746dd1f" />
 
-<img width="312" height="352" alt="image" src="https://github.com/user-attachments/assets/8a32ad5d-1ca1-4a5e-a639-359cecd44251" />
 
 
 ---
@@ -64,9 +63,8 @@
 
 ### Тестирование
 
-Проверяется, как изменение общего массива влияет на оценки двух студентов, а также демонстрируется независимость копии массива.
+<img width="506" height="570" alt="image" src="https://github.com/user-attachments/assets/adbf9c87-2f06-4a3f-b973-14bc7ede6966" />
 
-<img width="324" height="215" alt="image" src="https://github.com/user-attachments/assets/541fc956-8cdb-4af7-8ec2-ebe9999b7015" />
 
 
 ---
@@ -89,9 +87,9 @@
 
 ### Тестирование
 
-Проверяется работа обоих конструкторов и правильность вывода созданных линий.
+<img width="342" height="553" alt="image" src="https://github.com/user-attachments/assets/836783fe-8c0e-4aa9-bbc7-44f0b31dce3c" />
+<img width="300" height="473" alt="image" src="https://github.com/user-attachments/assets/45c17d2e-d045-4ef3-aee1-40f713266439" />
 
-<img width="322" height="265" alt="image" src="https://github.com/user-attachments/assets/5f2e9729-806e-4d40-a7a3-9d6e984a8f65" />
 
 
 ---
@@ -118,5 +116,6 @@
 
 Для линии от точки `(1;1)` до точки `(10;15)` сумма квадратов разниц координат равна 277. После ручного вычисления и округления метод возвращает результат 17.
 
-<img width="269" height="84" alt="image" src="https://github.com/user-attachments/assets/637f3d3b-b95f-476e-b27d-533d9f1a3363" />
+<img width="298" height="267" alt="image" src="https://github.com/user-attachments/assets/5cc0b5fe-42f5-4ee6-994b-77d26a972d3a" />
+
 
