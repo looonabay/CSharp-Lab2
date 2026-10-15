@@ -4,10 +4,9 @@ namespace Lab2
 {
     internal class Student
     {
-        private string name;
-        private int[] grades;
-        
-        
+        private string name = "";
+        private int[] grades = new int[0];
+
         public string Name
         {
             get { return this.name; }
@@ -20,17 +19,15 @@ namespace Lab2
             set { this.grades = value; }
         }
 
-        
         public Student(string name)
         {
             this.name = name;
             this.grades = new int[0];
         }
 
-        
         public override string ToString()
         {
-            return this.name + ": [" + string.Join(", ", 
+            return this.name + ": [" + string.Join(", ",
                 this.grades) + "]";
         }
     }
