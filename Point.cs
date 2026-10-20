@@ -4,19 +4,32 @@ namespace Lab2
 {
     internal class Point
     {
-        private double x;
-        private double y;
+        private double x = 0;
+        private double y = 0;
 
         public double X
         {
-            get { return this.x; }
-            set { this.x = value; }
+            get
+            {
+                return this.x;
+            }
+            set
+            {
+                this.x = value;
+            }
         }
 
         public double Y
+        
         {
-            get { return this.y; }
-            set { this.y = value; }
+            get
+            {
+                return this.y;
+            }
+            set
+            {
+                this.y = value;
+            }
         }
         
         public Point(double x, double y)
