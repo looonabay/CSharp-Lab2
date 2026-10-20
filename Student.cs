@@ -4,31 +4,44 @@ namespace Lab2
 {
     internal class Student
     {
-        private string name = "";
-        private int[] grades = new int[0];
+        private string _name = "";
+        private int[] _grades = new int[0];
 
         public string Name
         {
-            get { return this.name; }
-            set { this.name = value; }
+            get
+            {
+                return this._name;
+            }
+            set
+            {
+                this._name = value;
+            }
         }
 
         public int[] Grades
         {
-            get { return this.grades; }
-            set { this.grades = value; }
+            get
+            {
+                return this._grades;
+            }
+            set
+            {
+                this._grades = value;
+            }
+            
         }
 
         public Student(string name)
         {
-            this.name = name;
-            this.grades = new int[0];
+            this._name = name;
+            this._grades = new int[0];
         }
 
         public override string ToString()
         {
-            return this.name + ": [" + string.Join(", ",
-                this.grades) + "]";
+            return this._name + ": [" + string.Join(", ",
+                this._grades) + "]";
         }
     }
 }
