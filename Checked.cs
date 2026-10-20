@@ -146,23 +146,16 @@ public class Checked
         }
     }
     
-    // Проверка на ввод имени
-    public string ReadName(string promt)
+    // проверка для значений в определенном промежутке 
+    public int ReadGrade(string prompt)
     {
-        while (true)
+        int value = ReadInt(prompt);
+        if (value < 2 || value > 5)
         {
-            Console.WriteLine(promt);
-            string name = Console.ReadLine();
-
-            if (!string.IsNullOrWhiteSpace(name) &&
-                !name.Any(char.IsDigit))
-            {
-                return name;
-            }
-
             Console.WriteLine
-                ("Ошибка! Имя не должно содержать цифры." +
-                 " Попробуйте еще раз.");
+                ("Ошибка: оценка должна быть от 2 до 5.");
+            return ReadGrade(prompt);
         }
+        return value;
     }
 }
