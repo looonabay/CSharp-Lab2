@@ -4,8 +4,8 @@ namespace Lab2
 {
     internal class Student
     {
-        private string _name = "";
-        private int[] _grades = new int[0];
+        private string _name;
+        private int[] _grades;
 
         public string Name
         {
