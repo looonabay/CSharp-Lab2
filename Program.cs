@@ -113,22 +113,22 @@ namespace Lab2
                     // Задание 3
 
                     // Пункт 1
-                    string name1 = check.ReadName
+                    string name1 = check.ReadString
                         ("Введите имя первого студента:");
                     Student vasya = new Student(name1);
 
-                    int grade1 = check.ReadInt
+                    int grade1 = check.ReadGrade
                         ("Введите первую оценку:");
-                    int grade2 = check.ReadInt
+                    int grade2 = check.ReadGrade
                         ("Введите вторую оценку:");
-                    int grade3 = check.ReadInt
+                    int grade3 = check.ReadGrade
                         ("Введите третью оценку:");
 
                     vasya.Grades = new int[]
                         { grade1, grade2, grade3 };
 
                     // Пункт 2
-                    string name2 = check.ReadName
+                    string name2 = check.ReadString
                         ("Введите имя второго студента:");
                     Student petya = new Student(name2);
                     petya.Grades = vasya.Grades;
@@ -140,7 +140,7 @@ namespace Lab2
                     Console.WriteLine(petya.Name + ": " + petya);
 
                     // Пункт 4
-                    string name3 = check.ReadName
+                    string name3 = check.ReadString
                         ("Введите имя третьего студента:");
                     Student andrey = new Student(name3);
                     andrey.Grades = (int[])vasya.Grades.Clone();
@@ -198,7 +198,8 @@ namespace Lab2
                     double b2 = check.ReadDouble
                         ("Введите Y конца первой линии:");
 
-                    Line line1 = new Line(a1, b1, a2, b2);
+                    Line line1 = new Line
+                        (a1, b1, a2, b2);
 
                     double a3 = check.ReadDouble
                         ("Введите X начала второй линии:");
