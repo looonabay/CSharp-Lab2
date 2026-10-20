@@ -4,8 +4,8 @@ namespace Lab2
 {
     internal class Line
     {
-        private Point _start = new Point(0, 0);
-        private Point _end = new Point(0, 0);
+        private Point _start;
+        private Point _end;
 
         public Point Start
         {
