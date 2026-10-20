@@ -4,8 +4,8 @@ namespace Lab2
 {
     internal class Point
     {
-        private double x = 0;
-        private double y = 0;
+        private double x;
+        private double y;
 
         public double X
         {
